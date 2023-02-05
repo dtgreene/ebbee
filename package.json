@@ -1,0 +1,24 @@
+{
+  "name": "ebbee-server",
+  "version": "0.0.1",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./server.js --env prod",
+    "dev": "node ./server.js --env dev"
+  },
+  "keywords": [],
+  "author": "Dylan Greene",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.4",
+    "ws": "^8.12.0",
+    "yargs": "^17.6.2"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
